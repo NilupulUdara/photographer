@@ -8,12 +8,11 @@ export const Me = () => {
                 <p className="text-right text-2xl font-Roboto font-bold">Ryan Rodriguez</p>
                 <img className="min-h-64 max-w-full rounded-lg py-8" src={photographer} alt="" />
             </div>
-            <div className="text-left m-8 text-xl font-Roboto leading-10">
+            <div className="text-left m-8 text-xl md:text-lg font-Roboto leading-10">
                 Photography is the science, art, application and practice of creating durable images by
                 recording light or other electromagnetic radiation, either electronically by means of an
                 image sensor, or chemically by means of a light-sensitive material such as photographic film.
             </div>
         </div>
-
     )
 }
